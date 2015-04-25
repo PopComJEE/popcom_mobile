@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/conv_layout_sender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4" >
+
+            <TextView
+                android:id="@+id/sender_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/sender_message"
+                android:layout_alignLeft="@+id/sender_message"
+                android:layout_alignRight="@+id/sender_message"
+                android:layout_alignStart="@+id/sender_message"
+                android:gravity="start"
+                android:text="senderName"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/sender_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sender_name"
+                android:background="@android:drawable/alert_light_frame" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/conv_layout_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:gravity="end" >
+
+            <TextView
+                android:id="@+id/me_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/me_name"
+                android:layout_alignLeft="@+id/me_name"
+                android:layout_alignRight="@+id/me_name"
+                android:layout_alignStart="@+id/me_name"
+                android:gravity="start"
+                android:text="@string/me_name"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/me_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/me_name"
+                android:background="@android:drawable/alert_light_frame" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

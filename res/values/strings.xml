@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PopCom Mobile</string>
+    <string name="title_section1">Profil</string>
+    <string name="title_section2">Amis</string>
+    <string name="title_section3">Conversations</string>
+    <string name="navigation_drawer_open">Ouvrir Menu</string>
+    <string name="navigation_drawer_close">Fermer Menu</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Options</string>
+    
+     <string name="login">Identifiant</string>
+    <string name="password">Mot de Passe</string>
+    <string name="email">Email</string>
+    <string name="signin">SE CONNECTER</string>
+    <string name="signup">INSCRIPTION</string>
+    
+    <string name="save_changes">ENREGISTRER\nMODIFICATIONS</string>
+    
+    
+    <string name="delete">SUPPRIMER</string>
+    <string name="invite">INVITER</string>
+    <string name="add">AJOUTER</string>
+    <string name="refuse">REFUSER</string>
+    <string name="accept">ACCEPTER</string>
+    <string name="search_for_friends">RECHERCHER UN NOUVEL AMI</string>
+    <string name="friends_list">Liste d\'amis</string>
+    <string name="friends_pending_list">Liste d\'amis en attente</string>
+    
+    
+    <string name="hint_write_message">Ecrire un message...</string>
+    <string name="send">ENVOYER</string>
+
+    <string name="me_name">Moi</string>
+    
+    
+    <string name="conversations_list">Conversations en cours \:</string>
+</resources>

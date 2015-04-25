@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pop.mobile.PopComMainActivity$PlaceholderFragment" >
+
+    <ListView
+        android:id="@+id/messages_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/messages_write"
+        android:layout_below="@+id/messages_title" />
+
+    <EditText
+        android:id="@+id/messages_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/messages_send"
+        android:layout_toStartOf="@+id/messages_send"
+        android:gravity="top"
+        android:hint="@string/hint_write_message"
+        android:minLines="4" />
+
+    <Button
+        android:id="@+id/messages_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/messages_write"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/messages_write"
+        android:text="@string/send" />
+
+</RelativeLayout>
